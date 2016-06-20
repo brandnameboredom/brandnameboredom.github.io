@@ -2,7 +2,7 @@
 layout: post
 title:  "Runtime Broker"
 date:   2016-01-04 12:00:00 -0400
-categories: Runtime Broker Windows
+categories: [Runtime, Broker, Windows]
 author: Brad Turner
 ---
 

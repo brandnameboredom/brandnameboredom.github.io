@@ -2,7 +2,7 @@
 layout: post
 title:  "HSQL Database Manager"
 date:   2016-06-15 12:00:00 -0400
-categories: Liferay HSQL
+categories: [Liferay, HSQL]
 author: Brad Turner
 ---
 

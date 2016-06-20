@@ -2,7 +2,7 @@
 layout: post
 title:  "The Beginning"
 date:   2015-06-06 12:00:00 -0400
-categories: Plans
+categories: [Plans]
 author: Brad Turner
 ---
 
