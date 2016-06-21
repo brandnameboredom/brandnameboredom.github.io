@@ -7,3 +7,6 @@ environment:
 install:
   - set PATH=C:\Ruby%RUBY_VERSION%\bin;%PATH%
   - bundle install
+
+build_script:
+  - bundle exec jekyll build
