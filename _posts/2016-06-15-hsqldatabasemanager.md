@@ -7,6 +7,7 @@ author: Brad Turner
 ---
 
 Recently I've been working with the [Liferay] platform and I found myself in a situation where I wanted to inspect the data stored in the [Hypersonic] database that comes bundled with Liferay.  I found two recommended products for inspecting the database: 
+
   * [SquirrelSQL]
   * [HSQL Database Manager]
 
