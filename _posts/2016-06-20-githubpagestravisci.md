@@ -8,7 +8,7 @@ author: Brad Turner
 
 <img src="https://cdn.travis-ci.com/images/logos/TravisCI-Mascot-1-bc6a3179f3e8e1ab1456634bd55a448a.png" alt="Travis CI" width="200" style="display: block;margin-left: auto;margin-right: auto;" />
 
-I'm new to [Travis CI].  Almost all of the CI experience I have is with [TeamCity] and [TFS].  So, I thought I would use this GitHub pages site as and excuse to play with setting up a new-to-me CI system.  I started out following the [GitHub help documentation] on the subject hoping to get the site to build.  Heh, small wins.  The exact steps I followed are: 
+I'm new to [Travis CI].  Almost all of the CI experience I have is with [TeamCity] and [TFS].  So, I thought I would use this GitHub pages site as an excuse to play with setting up a new-to-me CI system.  I started out following the [GitHub help documentation] on the subject hoping to get the site to build.  Heh, small wins.  The exact steps I followed are: 
 
 - Create a file named "Gemfile" in the root folder with the following content:
 

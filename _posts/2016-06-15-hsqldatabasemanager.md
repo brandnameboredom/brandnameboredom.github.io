@@ -33,7 +33,7 @@ Click "Ok" and...
 
 <img src="https://cloud.githubusercontent.com/assets/3187885/16093500/216df1d2-330a-11e6-897d-5b684eddfaad.png" alt="HSQL Database Manager Connected" />
 
-#### NOTE: For more detailed information on the Database Manager tool and all of it's capabilities please check out the [official documentation]. 
+##### NOTE: For more detailed information on the Database Manager tool and all of it's capabilities please check out the [official documentation]. 
 
 [HSQL Database Manager]: http://hsqldb.org/doc/2.0/util-guide/dbm-chapt.html
 [official documentation]: http://hsqldb.org/doc/2.0/util-guide/dbm-chapt.html
