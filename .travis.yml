@@ -2,7 +2,7 @@ language: ruby
 rvm: 2.1.1
 script: 
     - bundle exec jekyll build
-    - bundle exec htmlproofer ./_site --only-4xx --url-ignore "/#.*/,/http:\/\/stackoverflow.com\/cv-beta\/bwturner/,/http:\/\/stackoverflow.com\/story-beta\/bwturner"
+    - bundle exec htmlproofer ./_site --only-4xx --url-ignore "/#.*/,/http:\/\/stackoverflow.com\/cv-beta\/bwturner/,/http:\/\/stackoverflow.com\/story-beta\/bwturner/"
 env:
     global:
         - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
