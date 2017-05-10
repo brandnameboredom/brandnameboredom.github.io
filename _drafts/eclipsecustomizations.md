@@ -16,6 +16,10 @@ but it did nothing for me while my cursor was active in the editing window.  A q
 
 and select "breakpoints".  Now, my custom binding of F9 to the "Toggle Breakpoint" action is usable from the editor window.  Sweet.
 
+Now, dark theme.  [Visual Studio] offers a pretty nice dark theme "out of the box" but the dark theme in [Eclipse] is like editing a high resolution photo in paint and using the paint bucket tool to change the background to black.  I've tried a number of dark themes but nothing has been able to compare to the [Darkest Dark Theme].  This theme is EXACTLY what I was hoping to find.  Clean.  Polished.  Also, [actively supported] at the time of this writing. 
+
 [Visual Studio]: https://www.visualstudio.com/
 [Eclipse]: https://eclipse.org/
 [StackOverflow]: http://www.stackoverflow.com
+[Darkest Dark Theme]: https://marketplace.eclipse.org/content/darkest-dark-theme
+[actively supported]: https://www.genuitec.com/forums/topics/darkest-dark/theme-problems/
