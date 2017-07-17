@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Customizing Eclipse"
-date:   2016-06-29 12:00:00 -0400
+date:   2017-05-25 12:00:00 -0400
 categories: [Eclipse, Customizations]
 author: Brad Turner
 ---
