@@ -1,5 +1,6 @@
 language: ruby
-rvm: 2.3.3p222
+rvm:
+  - 2.3.3
 script:
     - bundle exec jekyll build
     - bundle exec htmlproofer ./_site --only-4xx --url-ignore "/#.*/,/http:\/\/stackoverflow.com\/cv-beta\/bwturner/,/http:\/\/stackoverflow.com\/story-beta\/bwturner/"
