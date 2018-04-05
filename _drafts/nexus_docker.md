@@ -56,7 +56,7 @@ docker tag audiojak/lightning localhost:8888/audiojak:latest
 docker push localhost:8888/audiojak:latest
 ```
 
-[Docker](https://www.docker.com/)
-[Sonatype](https://www.sonatype.com/)
-[Nexus documentation](http://books.sonatype.com/nexus-book/3.0/reference/docker.html)
-[latest Nexus 3 image from Sonatype via Docker hub](https://hub.docker.com/r/sonatype/nexus3/)
+[Docker]: https://www.docker.com/
+[Sonatype]: https://www.sonatype.com/
+[Nexus documentation]: http://books.sonatype.com/nexus-book/3.0/reference/docker.html
+[latest Nexus 3 image from Sonatype via Docker hub]: https://hub.docker.com/r/sonatype/nexus3/
