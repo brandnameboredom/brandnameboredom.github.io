@@ -47,7 +47,7 @@ We could have run that in detached mode with a "-d" option but I wanted to monit
 Started Sonatype Nexus OSS 3.9.0-01
 ```
 
-Success!  We have Nexus up and running.  Now let's log into localhost:8081 with the default username/password combination of admin/admin123 and setup a hosted docker repository on the port we exposed for it in the docker-compose file (8888).  If your looking for instructions on how to do this consult the [Nexus documention] on Sonatype's site.  Once we have that registry created let's log into the registry with
+Success!  We have Nexus up and running.  Now let's log into localhost:8081 with the default username/password combination of admin/admin123 and setup a hosted docker repository on the port we exposed for it in the docker-compose file (8888).  If your looking for instructions on how to do this consult the [Nexus documentation] on Sonatype's site.  Once we have that registry created let's log into the registry with
 
 ``` zsh
 docker login http://localhost:8888/repository/docker-hosted/
