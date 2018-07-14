@@ -6,8 +6,8 @@ categories: [AWS]
 author: Brad Turner
 ---
 
-#S3
+# S3
 
-##Cross Region Replication
+## Cross Region Replication
 
 When two s3 buckets are configured for cross region replication and a deletion marker is created for a file in one of the s3 buckets it is replicated over to the linked s3 bucket.  However, if the deletion marker is itself deleted, that action is not replicated. Hmm.
