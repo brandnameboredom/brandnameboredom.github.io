@@ -6,13 +6,17 @@ categories: [mechanical, vortex, pok3r, cherry mx blues]
 author: Brad Turner
 ---
 
-### Today I received my first keyboard in the mail.  
+### Today I received my first _real_ keyboard in the mail.  
 
-Technically, that isn't true but as far as I'm concerned this is the first _true_ keyboard I've ever owned.  Introducing the [Pok3r by Vortex].
+Introducing the [Pok3r by Vortex].
 
 <img src="https://user-images.githubusercontent.com/3187885/43699325-543d7306-991c-11e8-8e4d-c103705c1bfc.jpg" alt="pok3r with wristpad" />
 
-For years now I've been using whatever keyboard/mouse combo I could get my hands on.  That is until a friend of mine at work let me try out his Pok3r Vortex 60% mechanical keyboard for a week.  At first I was a little unsure I would like the 60% reduction and removal of my treasured arrow keys.  I assumed I was more of a ten keyless type of person because I _rarely_ use the numpad but rely pretty heavily on the arrow keys.  After about 5 minutes however I was hooked.  The arrow keys on the Pok3r are mapped to the I, J, K, and L keys and the Caps Lock key can be programmed via a switch on the bottom to act as a function key.  So, hold caps lock and navigate around using these mapped keys.  Never move your hands from the home key row.  Beautiful.
+For years now I've been using whatever keyboard/mouse combo I could get my hands on.  That is until a friend of mine at work let me try out his Pok3r Vortex 60% mechanical keyboard for a week.  At first I was a little unsure I would like the 60% reduction and removal of my treasured arrow keys.
+
+<img src="https://en.wikipedia.org/wiki/Arrow_keys#/media/File:Arrow_keys.jpg" alt="wikipedia arrow keys" />
+
+After about 5 minutes however I was hooked.  The arrow keys on the Pok3r are mapped to the I, J, K, and L keys and the Caps Lock key can be programmed via a switch on the bottom to act as a function key.  So, hold caps lock and navigate around using these mapped keys.  Never move your hands from the home key row.  Beautiful.
 
 So, when the keyboard dropped on Massdrop it was a done deal.
 
