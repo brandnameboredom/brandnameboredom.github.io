@@ -14,7 +14,7 @@ Introducing the [Pok3r by Vortex].
 
 For years now I've been using whatever keyboard/mouse combo I could get my hands on.  That is until a friend of mine at work let me try out his Pok3r Vortex 60% mechanical keyboard for a week.  At first I was a little unsure I would like the 60% reduction and removal of my treasured arrow keys.
 
-<img src="https://en.wikipedia.org/wiki/Arrow_keys#/media/File:Arrow_keys.jpg" alt="wikipedia arrow keys" />
+<img src="https://commons.wikimedia.org/wiki/File:Arrow_keys.jpg#/media/File:Arrow_keys.jpg" alt="wikipedia arrow keys" />
 
 After about 5 minutes however I was hooked.  The arrow keys on the Pok3r are mapped to the I, J, K, and L keys and the Caps Lock key can be programmed via a switch on the bottom to act as a function key.  So, hold caps lock and navigate around using these mapped keys.  Never move your hands from the home key row.  Beautiful.
 
