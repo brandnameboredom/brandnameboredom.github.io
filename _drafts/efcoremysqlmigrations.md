@@ -14,3 +14,4 @@ Ok, Step 1: Update my model
 
 [Entity Framework Core]: https://docs.microsoft.com/en-us/ef/core/
 [automatic initialization and updating for TIMESTAMP and DATETIME]: https://dev.mysql.com/doc/refman/5.6/en/timestamp-initialization.html
+[bug]: https://github.com/PomeloFoundation/Pomelo.EntityFrameworkCore.MySql/issues/35
