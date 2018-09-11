@@ -28,4 +28,4 @@ Now, dark theme.  [Visual Studio] offers a pretty nice dark theme "out of the bo
 [Eclipse]: https://eclipse.org/
 [StackOverflow]: http://www.stackoverflow.com
 [Darkest Dark Theme]: https://marketplace.eclipse.org/content/darkest-dark-theme
-[actively supported]: https://www.genuitec.com/forums/topics/darkest-dark/theme-problems/
+[actively supported]: https://www.genuitec.com/products/devstyle/
