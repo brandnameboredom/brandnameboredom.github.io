@@ -22,18 +22,20 @@ layout: default
   <div class="pagination">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous">
-        Previous
+        <i class="far fa-arrow-alt-circle-left"></i>
       </a>
     {% else %}
-      <span class="previous">Previous</span>
+      <i class="far fa-arrow-alt-circle-left" disable></i>
     {% endif %}
     <span class="page_number ">
       Page: {{ paginator.page }} of {{ paginator.total_pages }}
     </span>
     {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+      <a href="{{ paginator.next_page_path }}" class="next">
+        <i class="far fa-arrow-alt-circle-right"></i>
+      </a>
     {% else %}
-      <span class="next ">Next</span>
+      <i class="far fa-arrow-alt-circle-right" disable></i>
     {% endif %}
   </div>
 
