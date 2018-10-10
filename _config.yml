@@ -18,6 +18,8 @@ source_link: "https://github.com/brandnameboredom/brandnameboredom.github.io"
 
 theme: jekyll-theme-midnight
 
+gems: [jekyll-paginate]
+
 author:
     linkedIn: "https://www.linkedin.com/in/turnerbrad"
     stackOverflow: "http://stackoverflow.com/users/70130/brad"
