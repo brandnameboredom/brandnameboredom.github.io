@@ -6,7 +6,7 @@ categories: [Docker,Localhost,Compose,Alternative]
 author: Brad Turner
 ---
 
-I ran into an issue the other day trying to test out a Jenkins slave docker image I had build to test some dotnetcore code.  I had an instance of [Sonarqube up and running inside of a docker container].  So, I built my slave container and jumped into the bash of the executing slave container.  Once inside, I wanted to run the following commands:
+I ran into an issue the other day trying to test out a Jenkins slave docker image I had built to test some dotnetcore code.  I had an instance of [Sonarqube up and running inside of a docker container].  So, I built my slave container and jumped into the bash of the executing slave container.  Once inside, I wanted to run the following commands:
 
 ```
 dotnet /sonarqube-scanner/SonarScanner.MSBuild.dll begin /k:"myproject" /d:sonar.host.url=http://localhost:9000 /d:sonar.login="my_sonarqube_provided_login"
