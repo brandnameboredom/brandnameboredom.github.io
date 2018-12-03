@@ -7,7 +7,7 @@ author: Brad Turner
 ---
 # AWS Re:Invent 2018
 
-<img src="https://photos.app.goo.gl/ZNnujmLPhcZFQBn7A" alt="Re:Invent 2018 Keynote" />
+<img src="https://user-images.githubusercontent.com/3187885/49393141-6ddb1300-f6fe-11e8-85ce-6bb301445e64.jpg" alt="Re:Invent 2018 Keynote" />
 
 I was able to attend the AWS Re:Invent 2018 conference last week and there were a few things I learned about how to get the most out of a conference that size and thought I would list them here in case I'm able to attend Re:Invent in the future.
 
