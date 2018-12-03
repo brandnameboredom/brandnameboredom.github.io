@@ -8,17 +8,25 @@ author: Brad Turner
 # AWS Re:Invent 2018
 
 <img src="https://user-images.githubusercontent.com/3187885/49393141-6ddb1300-f6fe-11e8-85ce-6bb301445e64.jpg" alt="Re:Invent 2018 Keynote" />
+ 
+[AWS Re:Invent 2018].  What can I say?  Wow.  Well played AWS, well played.  
 
-I was able to attend the AWS Re:Invent 2018 conference last week and there were a few things I learned about how to get the most out of a conference that size and thought I would list them here in case I'm able to attend Re:Invent in the future.
+I have been to a few tech conferences (most notabley [Visual Studio Live!] also in Las Vegas) but nothing has even come close to the spectacle AWS put on at Re:Invent 2018.  The conference was _huge_ with over 2000 breakout sessions and spanning a number of hotels.  I mean, just look at [the campus map].  Insane.  
 
-## Tips and Tricks
+As I try to get back into the groove of things I figured I would post a few tips for myself if I'm able to attend Re:Invent in the future.
+
 - Session Scheduling
-  - Schedule sessions according to a single venue for at least a morning/afternoon split.  Transportation between venues via the shuttle service takes upwards of an hour so switching venues between relatively closely scheduled sessions is not feasible
+  - Schedule sessions according to a single venue for at least a morning/afternoon split.  Transportation between venues via the shuttle service takes upwards of an hour so switching venues between relatively closely scheduled sessions is not feasible.  Also, the chartered shuttle buses smell terrible so ride share when you can.
 - Session Evals
-  - Complete a session eval each day of the conference and report back to the Swag/Check-in area to pick up a limited edition pin each day.
+  - Complete a session eval each day of the conference and report back to the Swag/Check-in area to pick up a limited edition pin each day.  Only one eval a day.
 - Hardware Announcements
-  - If a new piece of hardware is announced in a keynote, sign up for one of the workshops that day.  Chances are anyone who attends that workshop will get a device free of charge to take home.
+  - If a new piece of hardware is announced in a keynote, sign up for one of the workshops that day.  Chances are anyone who attends that workshop will get a device free of charge to take home.  This year they announced the [deep racer] and everyone who attended the workshop was gifted one afterward.
 - Swag
-  - You are going to get a ton of swag so pack accordingly.  You probably want at least half of a suitcase free to bring stuff home.  I ended up leaving a few shirts in the hotel room because I simply didn't have the room to bring it home.
+  - You are going to get a ton of swag so pack accordingly.  You probably want at least half of a suitcase free to bring stuff home.  I ended up leaving a few shirts in the hotel room because I simply didn't have the room to bring them home.
 
-  <img src="https://user-images.githubusercontent.com/3187885/49393260-c14d6100-f6fe-11e8-9b83-39328653656e.jpg" alt="Werner Vogels Keynote" />
+<img src="https://user-images.githubusercontent.com/3187885/49393260-c14d6100-f6fe-11e8-9b83-39328653656e.jpg" alt="Werner Vogels Keynote" />
+
+[AWS Re:Invent 2018]: https://reinvent.awsevents.com/
+[Visual Studio Live!]: https://vslive.com
+[the campus map]: https://reinvent.awsevents.com/campus/
+[deep racer]: https://aws.amazon.com/blogs/aws/aws-deepracer-go-hands-on-with-reinforcement-learning-at-reinvent/
