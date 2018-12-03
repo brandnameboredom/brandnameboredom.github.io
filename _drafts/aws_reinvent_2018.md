@@ -20,3 +20,5 @@ I was able to attend the AWS Re:Invent 2018 conference last week and there were 
   - If a new piece of hardware is announced in a keynote, sign up for one of the workshops that day.  Chances are anyone who attends that workshop will get a device free of charge to take home.
 - Swag
   - You are going to get a ton of swag so pack accordingly.  You probably want at least half of a suitcase free to bring stuff home.  I ended up leaving a few shirts in the hotel room because I simply didn't have the room to bring it home.
+
+  <img src="https://user-images.githubusercontent.com/3187885/49393260-c14d6100-f6fe-11e8-9b83-39328653656e.jpg" alt="Werner Vogels Keynote" />
