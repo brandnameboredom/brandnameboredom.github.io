@@ -20,9 +20,9 @@ First, I created the custom handler and overrode the GetBody and GetLink methods
 ``` java
 @Override
 protected String getBody(
-		UserNotificationEvent userNotificationEvent, 
+		UserNotificationEvent userNotificationEvent,
 		ServiceContext serviceContext) throws Exception {
-	JSONObject jsonObject = 
+	JSONObject jsonObject =
 		JSONFactoryUtil.createJSONObject(
 			userNotificationEvent.getPayload()
 		);
@@ -30,21 +30,21 @@ protected String getBody(
 	String notificationDetails = jsonObject.getString("status");
 	String body = StringUtil.replace(getBodyTemplate(), new String[] {
 		"[$TITLE$]", "[$BODY_TEXT$]" },
-		new String[] { 
-			"<strong>" + notificationTitle + "</strong>", 
+		new String[] {
+			"<strong>" + notificationTitle + "</strong>",
 			notificationDetails });
 	return body;
 }
 
 @Override
 protected String getLink(
-	UserNotificationEvent userNotificationEvent, 
+	UserNotificationEvent userNotificationEvent,
 	ServiceContext serviceContext) throws Exception {
 	return super.getLink(userNotificationEvent, serviceContext);
 }
-	
+
 protected String getBodyTemplate() throws Exception {
-	return "<div class=\"title\">[$TITLE$]</div>" + 
+	return "<div class=\"title\">[$TITLE$]</div>" +
 				"<div class=\"body\">[$BODY_TEXT$]</div>");
 }
 ```
@@ -54,7 +54,7 @@ Next, I wanted to address the hard-coded portlet ID from the [article] so I crea
 public CustomNotificationHandler(String portletId) {
 		setPortletId(portletId);
 	}
-``` 
+```
 
 Once I had the handler finished, I set out to programmatically create the appropriate definitions...
 
@@ -63,23 +63,23 @@ CustomNotificationHandler hndlr = new com.example.CustomNotificationHandler(
 	themeDisplay.getPortletDisplay().getId());
 
 UserNotificationManagerUtil.addUserNotificationHandler(hndlr);
-							
+
 if(UserNotificationManagerUtil.fetchUserNotificationDefinition(
-	hndlr.getPortletId(), 
-	ClassNameLocalServiceUtil.getClassNameId(hndlr.getClass().getName()), 
+	hndlr.getPortletId(),
+	ClassNameLocalServiceUtil.getClassNameId(hndlr.getClass().getName()),
 	UserNotificationDeliveryConstants.TYPE_WEBSITE).equals(null))
 {
-							
-    UserNotificationDefinition def = 
+
+    UserNotificationDefinition def =
 		new UserNotificationDefinition(
-			hndlr.getPortletId(), 
+			hndlr.getPortletId(),
 			ClassNameLocalServiceUtil.getClassNameId(
 				hndlr.getClass().getName()
-			), 
-			0, 
-			"Receive notification when this " + 
-			"portlet does something INCREDIBLE." ); 
-	
+			),
+			0,
+			"Receive notification when this " +
+			"portlet does something INCREDIBLE." );
+
     def.addUserNotificationDeliveryType(
 		new UserNotificationDeliveryType(
 	    	"Website",
@@ -87,9 +87,9 @@ if(UserNotificationManagerUtil.fetchUserNotificationDefinition(
 			true,
 			true)
 	);
-							
+
 	UserNotificationManagerUtil.addUserNotificationDefinition(
-		hndlr.getPortletId(), 
+		hndlr.getPortletId(),
 		def);
 }
 
@@ -102,8 +102,8 @@ JSONObject payload = JSONFactoryUtil.createJSONObject();
 payload.put("status", "This is the extraordinary notification message.");
 payload.put("title", "Tie Til");
 payload.put("userId", CurrentUser.getUserId());
-						
-UserNotificationEvent notification = 
+
+UserNotificationEvent notification =
 	UserNotificationEventLocalServiceUtil.createUserNotificationEvent(
 		CounterLocalServiceUtil.increment()
 	);
@@ -115,7 +115,7 @@ notification.setDeliverBy(UserNotificationDeliveryConstants.TYPE_WEBSITE);
 notification.setTimestamp(new Date().getTime());
 notification.setArchived(false);
 notification.setType(hndlr.getPortletId());
-							
+
 UserNotificationEventLocalServiceUtil.addUserNotificationEvent(notification);
 ```
 
@@ -124,4 +124,4 @@ UserNotificationEventLocalServiceUtil.addUserNotificationEvent(notification);
 [re]: http://www.liferaysavvy.com/2014/12/liferay-dockbar-custom-user.html
 [gur]: http://stackoverflow.com/questions/33821623/using-liferay-dockbar-notifications
 [gi]: http://livewithliferay.blogspot.com/2014/12/custom-notifications-implementation-in.html
-[tations]: https://web.liferay.com/community/forums/-/message_boards/message/55556877
+[tations]: https://community.liferay.com/forums/-/message_boards/message/55556877
