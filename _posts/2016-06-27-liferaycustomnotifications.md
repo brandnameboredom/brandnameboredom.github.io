@@ -6,7 +6,7 @@ categories: [Liferay, Notifications]
 author: Brad Turner
 ---
 
-As I mentioned before, I've recently started working with the [Liferay] platform.  I had some free time and decided I would spend it learning how to add custom notifications to one of the administrative portlets that contained a long-running process.  So, I scoured the internet for any documentation on how to specify custom notifications in Liferay.  What I found was this [article] (and various [re](http://www.liferaysavvy.com/2014/12/liferay-dockbar-custom-user.html)-[gur](http://stackoverflow.com/questions/33821623/using-liferay-dockbar-notifications)-[gi](http://livewithliferay.blogspot.com/2014/12/custom-notifications-implementation-in.html)-[tations](https://web.liferay.com/community/forums/-/message_boards/message/55556877) of the information).  In the article, the author describes the following steps:
+As I mentioned before, I've recently started working with the [Liferay] platform.  I had some free time and decided I would spend it learning how to add custom notifications to one of the administrative portlets that contained a long-running process.  So, I scoured the internet for any documentation on how to specify custom notifications in Liferay.  What I found was this [article] (and various [re]-[gur]-[gi]-[tations] of the information).  In the article, the author describes the following steps:
 
 * Adding an XML file which defines the delivery types for the notification
 * Adding a custom handler to produce the body of the notification
