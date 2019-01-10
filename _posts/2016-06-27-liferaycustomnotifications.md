@@ -124,4 +124,4 @@ UserNotificationEventLocalServiceUtil.addUserNotificationEvent(notification);
 [re]: http://www.liferaysavvy.com/2014/12/liferay-dockbar-custom-user.html
 [gur]: http://stackoverflow.com/questions/33821623/using-liferay-dockbar-notifications
 [gi]: http://livewithliferay.blogspot.com/2014/12/custom-notifications-implementation-in.html
-[tations]: https://community.liferay.com/forums/-/message_boards/message/55556877
+[tations]: https://community.liferay.com/forums/-/message_boards/message/55556877#_com_liferay_message_boards_web_portlet_MBPortlet_message_34854584
