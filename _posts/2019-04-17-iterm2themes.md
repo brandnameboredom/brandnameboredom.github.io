@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "iTerm2 Customizations"
+title:  "iTerm2 Themes"
 date:   2019-04-17 12:00:00 -0400
-categories: [iTerm2, powerlevel9k]
+categories: [iTerm2, powerlevel9k, spaceship, zsh]
 author: Brad Turner
 ---
 
