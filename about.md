@@ -10,6 +10,8 @@ I write code.  I write code for my job (by the way...<a href="http://stackoverfl
 
 <img src="https://cloud.githubusercontent.com/assets/3187885/16243975/cff4831c-37c7-11e6-814a-b48b9e2487b9.png" width="50%" height="50%" alt="Kayak Fishing Lake Anna, VA" />
 
+<img src="https://user-images.githubusercontent.com/3187885/57498524-2dce1c80-72aa-11e9-8372-2b3834a2b48b.jpg" alt="Kayaking Lake Anna, VA" />
+
 My hopes for this space is to write about topics I find interesting in the world of software development.  Ready. Go.
 
 
