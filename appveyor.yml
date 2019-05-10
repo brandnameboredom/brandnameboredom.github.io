@@ -2,7 +2,7 @@ version: 1.0.{build}-{branch}
 
 environment:
   matrix:
-    - RUBY_VERSION: 200
+    - RUBY_VERSION: 24
 
 install:
   - set PATH=C:\Ruby%RUBY_VERSION%\bin;%PATH%
