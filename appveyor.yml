@@ -11,4 +11,7 @@ install:
   - bundle install
 
 build_script:
+  - ruby --version
+  - gem --version
+  - bundler --version
   - bundle exec jekyll build
