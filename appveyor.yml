@@ -1,5 +1,7 @@
 version: 1.0.{build}-{branch}
 
+image: Ubuntu
+
 environment:
   matrix:
     - RUBY_VERSION: 32
